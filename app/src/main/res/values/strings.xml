@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ReyCraft</string>
+    <string name="action_settings">Paramétres</string>
+    <string name="title_section1">Blog</string>
+    <string name="title_section2">Serveur</string>
+    <string name="title_section3">Connexion</string>
+    <string name="action_about">A propos</string>
+    <string name="text_about">Produit par Alexandre Plaitant</string>
+    <string name="connexion_login">Login:</string>
+    <string name="connexion_pwd">Mot de passe:</string>
+    <string name="connexion_valider">Connexion</string>
+
+</resources>
