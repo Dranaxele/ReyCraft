@@ -21,7 +21,7 @@ public class Blog extends AsyncTask<String, Void, Boolean>{
 	@Override
 	protected Boolean doInBackground(String... arg0) {
 		// TODO Auto-generated method stub
-		final String strURL = "http://servmcrey78.olympe.in/android/blog.php";
+		final String strURL = "http://alexandreplaitant.ddns.net/android/blog.php";
 		InputStream is = null;
 		String result = "";
 		

@@ -23,9 +23,9 @@ import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import android.widget.Toast;
-import fr.bdd.reycraft.BlogBDD;
-import fr.metier.reycraft.Blog;
-import fr.metier.reycraft.Post;
+import fr.plaitant.reycraft.bdd.BlogBDD;
+import fr.plaitant.reycraft.metier.Blog;
+import fr.plaitant.reycraft.metier.Post;
 
 public class MainActivity extends FragmentActivity implements Runnable {
 
@@ -105,7 +105,7 @@ public class MainActivity extends FragmentActivity implements Runnable {
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.main, menu);
+        getMenuInflater().inflate(R.menu.menu_main, menu);
         //Log.d("moi", "Le menu est cr�e");
         return true;
     }
